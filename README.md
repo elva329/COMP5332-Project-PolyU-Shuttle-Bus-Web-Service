@@ -1,6 +1,6 @@
 # PolyU-Shuttle-Bus-Web-Service
 
-This is a guideline to start run the PolyU Shuttle Bus Application.
+This is a guideline to start to run the PolyU Shuttle Bus Application.
 --------------------------------------------------------------------------------------
 
 Note: 
