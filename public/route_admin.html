@@ -1,0 +1,110 @@
+<!DOCTYPE>
+<html ng-app="myApp">
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="controllers/controller_admin_route.js"></script>
+<head>
+	<title>Route Administration</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/route_admin.css">
+</head>
+<body>
+	<div class="content" ng-controller="appCtrl">
+	  <div class="container">
+	    <div class="header">
+          <div class="logo">
+             <div class="logoimg">
+        	   <img src="Img/bus5.png" style="widht:70px; height:70px;">
+             </div>
+          </div>
+    	<div class="top">
+           <!-- <h1>Polyu Shuttle Bus Service</h1> -->
+           <h1 align="center">Route Administration</h1>
+
+    	</div>
+    	<div class="logoimg1">
+        	<img src="Img/bus4.jpg" style="widht:70px; height:70px;">
+        </div>
+      
+    	
+        <div class="clearfix"></div>
+    </div>
+
+		<!-- <h1 align="center">Route Administration</h1> -->
+		
+		<!--<input ng-model="test">	-->
+
+		<table class="table">
+				<tr class="info">
+					<td>Route No.</td>
+					<td>Departure</td>
+					<td>Stop 1</td>
+					<td>Stop 2</td>
+					<td>Destination</td>
+					<td>Timetable Name</td>
+					<!-- <td><a class="btn btn-primary" target="_blank" ng-href="{{url}}" ng-mousedown="openTab()">Create New Timetable</a></td> -->
+					<td></td>
+					<td></td>
+				</tr>
+
+			<tbody>
+			
+
+			<tr>
+			<td><input class="form-control" ng-model="item.route_id"></td>
+			<td><select class="form-control" ng-model="item.start">
+				<option value="PolyUCampus">PolyU Campus</option>
+				<option value="ChunFookMansion">Chun Fook Mansion</option>
+				<option value="HungKwanHouse">Hung Kwan House</option>
+				<option value="SiuChingMansion">Siu Ching Mansion</option>
+			</select></td>
+			<td><select class="form-control" ng-model="item.stop1">
+				<option value="NotStop">Not stop</option>
+				<option value="PolyUCampus">PolyU Campus</option>
+				<option value="ChunFookMansion">Chun Fook Mansion</option>
+				<option value="HungKwanHouse">Hung Kwan House</option>
+				<option value="SiuChingMansion">Siu Ching Mansion</option>
+			</select></td>
+			<td><select class="form-control" ng-model="item.stop2">
+				<option value="NotStop">Not stop</option>
+				<option value="PolyUCampus">PolyU Campus</option>
+				<option value="ChunFookMansion">Chun Fook Mansion</option>
+				<option value="HungKwanHouse">Hung Kwan House</option>
+				<option value="SiuChingMansion">Siu Ching Mansion</option>
+			</select></td>
+			<td><select class="form-control" ng-model="item.end">
+				<option value="PolyUCampus">PolyU Campus</option>
+				<option value="ChunFookMansion">Chun Fook Mansion</option>
+				<option value="HungKwanHouse">Hung Kwan House</option>
+				<option value="SiuChingMansion">Siu Ching Mansion</option>
+			</select></td>
+			<td><input class="form-control" ng-model="item.time"></td>
+			<td>
+			<button class="btn btn-info" id="update_button" ng-click="update()">Update</button>
+
+			</td>
+			<td>&nbsp;</td>
+			</tr>
+
+				<tr ng-repeat="item in route">
+				<!-- route is the "$scope.route" ,and item is the item in route(a var of the html) -->
+				<td>{{item.route_id}}</td>
+				<td>{{item.start}}</td>
+				<td>{{item.stop1}}</td>
+				<td>{{item.stop2}}</td>
+				<td>{{item.end}}</td>	
+				<td><a href="{{item.time}}.html" class="btn btn-primary btn-lg active" role="button"  id="timetable_button">Timetable</a></td>
+				<!-- <td><a href="timetable/campus.pdf" class="btn btn-primary btn-lg active" role="button" id="timetable_button">Timetable</a></td> -->
+				
+				<td><button class="btn btn-dangeer" role="button" id="delete_button" ng-click="remove(item._id)">Delete</button></td>
+				
+				<td><button class="btn btn-warning" role="button" id="edit_button" ng-click="edit(item._id)">Edit</button></td>			
+				</tr>
+			</tbody>
+        </table>
+        <div class="footer">
+			<p> &copy; 2015 Polyu Shuttle Bus Service</p>
+		</div>
+</div>
+</body>
+</html>
