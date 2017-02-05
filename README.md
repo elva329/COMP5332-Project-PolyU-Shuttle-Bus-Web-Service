@@ -1,7 +1,12 @@
 # PolyU-Shuttle-Bus-Web-Service
 
-This is a guideline to start to run the PolyU Shuttle Bus Application.
---------------------------------------------------------------------------------------
+
+# Demo of the application
+
+![Aaron Swartz](https://github.com/elva329/MEANStack-PolyUShuttleBusWebService/raw/master/demo%20of%20PolyU%20Shuttle%20Bus%20Project.gif)
+
+
+# Guideline to start to run the PolyU Shuttle Bus Application.
 
 Note: 
 
@@ -13,7 +18,7 @@ Note:
 
 --------------------------------------------------------------------------------------
 
-Prerequisites:
+# Prerequisites:
 
 1. Please make sure mongodb is installed on your environment and make configuration accordingly.  You can check below reference links.
 
