@@ -1,6 +1,3 @@
-# PolyU-Shuttle-Bus-Web-Service
-
-
 # Demo of the application
 
 ![Aaron Swartz](https://github.com/elva329/MEANStack-PolyUShuttleBusWebService/raw/master/demo%20of%20PolyU%20Shuttle%20Bus%20Project.gif)
