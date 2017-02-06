@@ -1,6 +1,11 @@
 # Demo of the application
+-Admin Login
+-CRUD Timetables
+-Search Timetable
 
 ![Aaron Swartz](https://github.com/elva329/MEANStack-PolyUShuttleBusWebService/raw/master/demo%20of%20PolyU%20Shuttle%20Bus%20Project.gif)
+
+-Export timetable to pdf and download it
 
 ![Aaron Swartz](https://github.com/elva329/MEANStack-PolyUShuttleBusWebService/raw/master/Download%20timetable.gif)
 
