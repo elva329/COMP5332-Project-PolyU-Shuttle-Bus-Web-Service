@@ -1,3 +1,7 @@
+# MEANStack-PolyUShuttleBusWebService
+
+PolyU Shuttle Bus WebService is developed using MEAN Stack(MongoDB, Express, Angular JS, and Node JS),which aims to provide the functionalities that user can search and save a route to plan a route and also allows the administrator to perform administrative operations like add, update and delete.
+
 # Demo of the application
 1. Admin Login
 2. CRUD Timetables
