@@ -2,6 +2,7 @@
 
 ![Aaron Swartz](https://github.com/elva329/MEANStack-PolyUShuttleBusWebService/raw/master/demo%20of%20PolyU%20Shuttle%20Bus%20Project.gif)
 
+![Aaron Swartz](https://github.com/elva329/MEANStack-PolyUShuttleBusWebService/raw/master/Download%20timetable.gif)
 
 # Guideline to start to run the PolyU Shuttle Bus Application.
 
